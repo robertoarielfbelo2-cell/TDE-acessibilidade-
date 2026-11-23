@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessibilidade de Fala - Acessibilidade para Todos</title>
+    <link id="tema"rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <!-- Menu de Navegação Principal (Padronizado em todas as páginas) -->
+    <nav class="guiaPaginas" aria-label="Navegação Principal">
+        <a href="index.html">Home</a>
+        <a href="tecnologiasAssistivas.html">Tec Assistiva</a>
+        <a href="fala.html">Acessibilidade fala</a>
+        <a href="mobilidadeUrbana.html">Acessibilidade urbana</a>
+        <a href="neuro.html">Acessibilidade Neurodivergente</a>
+        <a href="visual.html">Acessibilidade Visual</a>
+        <a href="auditiva.html">Acessibilidade Auditiva</a>
+        <button id="trocarTema">Alterar Tema</button>
+    </nav>
+
+
+    <header class="cabecalho-pagina">
+        <h1>Acessibilidade Auditiva</h1>
+        <p>Entenda os desafios, barreiras e soluções voltadas para a comunicação inclusiva.</p>
+    </header>
+
+
+  <main class="explicacoes">
+        <section class="topicos" aria-labelledby="sec-auditiva-1">
+            <h2 id="sec-auditiva-1">1. Principais causadores da deficiência auditiva</h2>
+            <p>A perda auditiva pode ter origens genéticas e hereditárias, decorrer de infecções congênitas na gestação (como rubéola e toxoplasmose), complicações no parto, otites crônicas mal tratadas, envelhecimento natural (presbiacusia), ou ser causada pela exposição prolongada a ruídos intensos (PAIR — Perda Auditiva Induzida por Ruído).</p>
+        </section>
+
+        <section class="topicos" aria-labelledby="sec-auditiva-2">
+            <h2 id="sec-auditiva-2">2. Principais Problemas Enfrentados</h2>
+            <p>As maiores barreiras diárias envolvem a comunicação e a exclusão informativa: escassez de intérpretes de Libras em serviços públicos e privados, falta de legendas em conteúdos audiovisuais (vídeos, aulas, filmes), sistemas de atendimento telefônico que não oferecem alternativas em texto e alarmes de emergência estritamente sonoros.</p>
+        </section>
+
+        <section class="topicos" aria-labelledby="sec-auditiva-3">
+            <h2 id="sec-auditiva-3">3. Principais Ferramentas de Acessibilidade Físicas</h2>
+            <p>Entre os recursos físicos estão os aparelhos auditivos retroauriculares ou intra-auriculares, os implantes cocleares, sistemas de alerta visual (luzes estroboscópicas conectadas a campainhas e alarmes de incêndio), além da presença de intérpretes de Língua Brasileira de Sinais (Libras) em eventos e locais de atendimento.</p>
+        </section>
+
+        <section class="topicos" aria-labelledby="sec-auditiva-4">
+            <h2 id="sec-auditiva-4">4. Ferramentas de Acessibilidade Online</h2>
+            <p>Na internet, as principais soluções são legendas ocultas (*closed captions*), transcrição automática de áudios em tempo real para texto, ferramentas de tradução de sites para Libras (por meio de widgets ou avatares), e canais de atendimento digital estruturados exclusivamente via chat ou mensagem instantânea.</p>
+        </section>
+    </main>
+
+   <footer class="rodape-site">
+        <div class="rodape-conteudo">
+            <div class="coluna-rodape">
+                <h3>Contato do Projeto</h3>
+                <p>E-mail: suporte@acessibilidadeparatodos.com.br</p>
+                <p>Telefone: (41) 90000-0000</p>
+            </div>
+        </div>
+        <div class="rodape-inferior">
+            <p>&copy; 2026 Acessibilidade para Todos. Desenvolvido para fins acadêmicos (TDE).</p>
+        </div>
+    </footer>
+    <div id="vlibras">
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+     <script src="../js/trocarTema.js"></script>
+</body>
+</html>
