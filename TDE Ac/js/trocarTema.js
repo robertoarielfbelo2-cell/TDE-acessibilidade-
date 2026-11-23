@@ -27,14 +27,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
-window.addEventListener("DOMContentLoaded", () => {
-    const librasTextos = document.querySelectorAll(
-        "main h1, main h2, main h3, main p, main li, section h1, section h2, section h3, section p, section li"
-    );
-
-    librasTextoss.forEach((elemento) => {
-        if (!elemento.hasAttribute("tabindex")) {
-            elemento.setAttribute("tabindex", "0");
-        }
-    });
-});
