@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Mude o título em cada página (ex: Acessibilidade de Fala, Acessibilidade Visual, etc.) -->
+    <title>Acessibilidade de Fala - Acessibilidade para Todos</title>
+    
+    <link id="tema"rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <nav class="guiaPaginas" aria-label="Navegação Principal">
+        <a href="index.html">Home</a>
+        <a href="tecnologiasAssistivas.html">Tec Assistiva</a>
+        <a href="fala.html">Acessibilidade fala</a>
+        <a href="mobilidadeUrbana.html">Acessibilidade urbana</a>
+        <a href="neuro.html">Acessibilidade Neurodivergente</a>
+        <a href="visual.html">Acessibilidade Visual</a>
+        <a href="auditiva.html">Acessibilidade Auditiva</a>
+        <button id="trocarTema">Alterar Tema</button>
+    </nav>
+
+    <header class="cabecalho-pagina">
+        <h1>Acessibilidade para deficientes visuais</h1>
+        <p>Entenda os desafios, barreiras e soluções voltadas para a comunicação inclusiva.</p>
+    </header>
+
+  <main class="explicacoes">
+        <section class="topicos" aria-labelledby="sec-visual-1">
+            <h2 id="sec-visual-1">1. Principais causadores da deficiência visual</h2>
+            <p>A deficiência visual pode ser congênita (presente desde o nascimento) ou adquirida ao longo da vida. Entre os principais causadores estão doenças oculares degenerativas, como catarata, glaucoma e retinopatia diabética, além de traumas oculares, infecções graves, descolamento de retina e deficiências nutricionais (como a falta de vitamina A).</p>
+        </section>
+
+        <section class="topicos" aria-labelledby="sec-visual-2">
+            <h2 id="sec-visual-2">2. Principais Problemas Enfrentados</h2>
+            <p>No cotidiano, pessoas cegas ou com baixa visão enfrentam barreiras como a falta de acessibilidade digital em sites e aplicativos (incompatibilidade com leitores de tela), ausência de sinalização em Braille em espaços públicos, cardápios inacessíveis, falta de pisos táteis adequados e obstáculos urbanos não sinalizados, como buracos e obras nas calçadas.</p>
+        </section>
+
+        <section class="topicos" aria-labelledby="sec-visual-3">
+            <h2 id="sec-visual-3">3. Principais Ferramentas de Acessibilidade Físicas</h2>
+            <p>As ferramentas físicas de apoio incluem a bengala branca (para pessoas cegas) e a bengala verde (para baixa visão), cães-guia, pisos táteis de alerta e direcional, materiais impressos ou sinalizações em Braille, além de lupas manuais, óculos com lentes especiais e lupas eletrônicas para ampliação de textos físicos.</p>
+        </section>
+
+        <section class="topicos" aria-labelledby="sec-visual-4">
+            <h2 id="sec-visual-4">4. Ferramentas de Acessibilidade Online</h2>
+            <p>No ambiente digital, destacam-se os leitores de tela (como NVDA, JAWS e VoiceOver) que convertem texto em áudio, softwares de ampliação de tela, descrições detalhadas de imagens (textos alternativos ou *alt text*), navegação fluida por teclado e opções de personalização de cores com alto contraste em páginas web.</p>
+        </section>
+    </main>
+   <footer class="rodape-site">
+        <div class="rodape-conteudo">
+            <div class="coluna-rodape">
+                <h3>Contato do Projeto</h3>
+                <p>E-mail: suporte@acessibilidadeparatodos.com.br</p>
+                <p>Telefone: (41) 90000-0000</p>
+            </div>
+        </div>
+        <div class="rodape-inferior">
+            <p>&copy; 2026 Acessibilidade para Todos. Desenvolvido para fins acadêmicos (TDE).</p>
+        </div>
+    </footer>
+    <div id="vlibras">
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+     <script src="../js/trocarTema.js"></script>
+</body>
+</html>
